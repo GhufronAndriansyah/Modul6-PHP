@@ -1,4 +1,54 @@
 # Modul6-PHP
+Jawab :
+1.  Cookies : Cookies atau bisa isebut HTTP cookies, web cookies, atau browser cookies adalah data atau informasi yang diciptakan oleh  
+    suatu website untuk disimpan di web browser, ketika user sedang menjelajahi website tersebut. Cookies yang telah disimpan pada 
+    browser bisa iambil untuk memberitahu website tentang aktifitas user pada waktu sebelumnya.
+    
+    Session : Session adalah salah satu fasilitas yang ada pada PHP yang digunakan untuk menyimpan data sementara ke dalam variabel 
+    (variabel session) sehinga data tadi dapat di akses oleh client selama variabel session tadi tidak di kosongkan atau dihilangkan. 
+    Nilai variabel di dalam session di simpan di sisi server (web server). Berbeda dengan cookies yang nilai variabelnya disimpan di 
+    sisi client (browser). Jadi session relatif lebih aman digunakan untuk menyimpan variabel nilai yang bersifat rahasia seperti 
+    username dan password pada saat login. Kegunaan session diantaranya untuk menyimpan informasi login yang berlaku hanya dalam satu 
+    sesi dan menyimpan catatan order barang dalam sistem e-commerce/transaksi online
+    
+2.  Hapus Cookies :
+    Di komputer, buka Chrome.
+    Di kanan atas, klik Lainnya Lainnya.
+    Klik Fitur lainnya berikutnya Hapus data browsing.
+    Di bagian atas, pilih rentang waktu. Untuk menghapus semua, pilih Semua.
+    Di samping "Cookie dan data situs lainnya" dan "Gambar dan file dalam cache", centang kotaknya.
+    Klik Hapus data.
+    
+    Hapus Session :
+    Tidak ada, Karena Session penyimpanannya tidak di browser
+
+
+3.  Membuat Cookie
+    <?php  
+    setcookie('nama_cookie', 'nilai_cookie'); 
+    eho $_COOKIE['nama_cookie']; 
+    ?>
+    
+    Menghapus Cookie
+    <?php
+    Setcookie(“username”,””);
+    Setcookie(“password”,””);
+    ?>
+    
+    Membuat Session
+    <?php
+	  session_start();
+	  $_SESSION['nama_user'] = "Cara Kode";
+    ?>
+    
+    Menghapus Session
+    <?php
+	  session_start();
+	  session_unset( $_SESSION['nama_user']);
+    ?>
+    
+ 
+
 
 Menciptakan dan Mengakses Cookie  
 
