@@ -1,0 +1,102 @@
+*{
+    padding: 0; margin: 0;
+}
+body{
+    background: url("gettingtothapaper.com_.jpg");
+    background-size: 14%;
+}
+h2{
+	color:#50626C;
+	text-align: center;
+	font-family: arial;
+	text-transform: uppercase;
+	border: 3px solid #f1f1f1;
+	padding: 5px;
+	width: 490px;
+	margin: auto;
+	margin-bottom: 10px;
+    margin-top: 20px;
+    background-color: white;
+    border-color: #50626C;
+}
+form {
+    border: 3px solid #f1f1f1;
+    font-family: arial;
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    border-color: #50626C;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-color: #50626C;
+    box-sizing: border-box;
+    background-color:white;
+}
+label{
+	color:#50626C;
+    text-transform: uppercase;
+    background-color: white;
+    
+}
+button {
+    background-color: #049372;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.cancelbtn {
+    width: auto;
+    padding: 8px 18px;
+    background-color: #f03434;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    background-color: white;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.container {
+    padding: 16px;
+    background-color:white;
+}
+.container b{
+    background-color: white;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+    background-color:#f1f1f1
+}
+span a{
+    background-color:#f1f1f1;
+}
+.tengah1{ 
+    font-size: 15px;
+    padding-left: 10px;
+    margin-left: 40%
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
