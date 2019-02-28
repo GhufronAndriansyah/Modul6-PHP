@@ -23,30 +23,8 @@ Jawab :
     Tidak ada, Karena Session penyimpanannya tidak di browser
 
 
-3.  Membuat Cookie
-    <?php  
-    setcookie('nama_cookie', 'nilai_cookie'); 
-    eho $_COOKIE['nama_cookie']; 
-    ?>
-    
-    Menghapus Cookie
-    <?php
-    Setcookie(“username”,””);
-    Setcookie(“password”,””);
-    ?>
-    
-    Membuat Session
-    <?php
-	  session_start();
-	  $_SESSION['nama_user'] = "Cara Kode";
-    ?>
-    
-    Menghapus Session
-    <?php
-	  session_start();
-	  session_unset( $_SESSION['nama_user']);
-    ?>
-    
+3.
+![alt text](https://github.com/GhufronAndriansyah/Modul6-PHP/blob/master/Screenshot%20(385).png)
  
 
 
